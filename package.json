@@ -1,0 +1,27 @@
+{
+  "name": "onpage-hub-api-client",
+  "version": "0.1.2",
+  "description": "OnPage HUB API Client for Node.js",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/onsetinc/onpage-hub-api-client-nodejs"
+  },
+  "keywords": [
+    "onpage",
+    "api",
+    "pager",
+    "page",
+    "messaging",
+    "priority messaging"
+  ],
+  "author": "Onset Technology <support@onpage.com> (http://onspage.com)",
+  "license": "MIT",
+  "dependencies": {
+    "soap": "~0.8.0"
+  }
+}
