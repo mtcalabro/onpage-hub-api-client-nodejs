@@ -3,7 +3,8 @@ Node.js onpage-hub-api-client module is simple script to send the Page to OnPage
 Basic usage:
 
 ```nodejs
-var OnPageHubApiClient = require('./index');
+var OnPageHubApiClient = require('onpage-hub-api-client');
+
 // THE ENTERPRISE NAME AND TOKEN HAS TO BE REQUESTED FROM ONPAGE SUPPORT.
 var onPageHubApiClient = new OnPageHubApiClient('enterprise_name', 'token');
 
