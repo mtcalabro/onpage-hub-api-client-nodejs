@@ -1,6 +1,6 @@
 {
   "name": "onpage-hub-api-client",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "OnPage HUB API Client for Node.js",
   "private": false,
   "main": "index.js",
