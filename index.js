@@ -18,7 +18,7 @@ OnPageHubApiClient.prototype.sendPage = function (message_id, recipients, subjec
 
     var recipients_list = [];
     recipients.forEach(function (recipient) {
-        recipients_list.push({Recipient: { id: recipient}});
+        recipients_list.push({ id: recipient });
     });
 
     var args = {
@@ -33,7 +33,7 @@ OnPageHubApiClient.prototype.sendPage = function (message_id, recipients, subjec
                         ID: 'dispatcher@' + this.enterprise,
                         type: 'EMAIL'
                     },
-                    Recipients: recipients_list,
+                    Recipients: { Recipient: recipients_list },
                     Subject: subject,
                     Body: body,
                     Reply: {
